@@ -16,30 +16,6 @@
   width: 30%;
 }
 
-.hr-1 {
-  width: 60%;
-  margin: 0 auto;
-  margin-bottom: 15px;
-  margin-top: 15px;
-}
-.hr-2 {
-  width: 60%;
-  margin: 0 auto;
-  margin-bottom: 15px;
-}
-
-.w-70 {
-  width: 70%;
-}
-
-.w-10 {
-  width: 10%;
-}
-
-.w-60 {
-  width: 60%;
-}
-
 #box-1 {
   height: 92vh;
   width: 100%;
@@ -92,13 +68,7 @@
 html {
   scroll-behavior: smooth;
 }
-.container-fluid {
-  margin-left: 20px;
-}
-.navbar-brand > img {
-  height: 5vh;
-  object-fit: contain;
-}
+
 .row {
   margin: 0;
 }
