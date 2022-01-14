@@ -1,3 +1,77 @@
+.footer-basic {
+  padding: 40px 0;
+  background-color: #ffffff;
+  color: #4b4c4d;
+}
+
+.footer-basic .copyright {
+  text-align: center;
+  font-size: 14px;
+  color: rgb(68, 68, 68);
+  margin-bottom: 0;
+}
+
+.border-3-30 {
+  border-bottom: black 3px solid;
+  width: 30%;
+}
+
+.hr-1 {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.hr-2 {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.w-10 {
+  width: 10%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+#box-1 {
+  height: 92vh;
+  width: 100%;
+  background-image: url(../../assets/img/i1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#box-2 {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#box-3 {
+  width: 100%;
+}
+
+#box-4 {
+  width: 100%;
+  background-image: url(../../assets/img/i2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+#box-5 {
+  width: 100%;
+  text-align: center;
+}
+
 .navbar-nav {
   margin-left: auto;
 }
@@ -17,6 +91,16 @@
 }
 html {
   scroll-behavior: smooth;
+}
+.container-fluid {
+  margin-left: 20px;
+}
+.navbar-brand > img {
+  height: 5vh;
+  object-fit: contain;
+}
+.row {
+  margin: 0;
 }
 
 .progress-bar {
@@ -39,11 +123,14 @@ html {
 }
 
 @media (orientation: portrait) {
+  .card-header > h1 {
+    font-size: 3.5vh;
+  }
   h3 {
-    font-size: 2vh;
+    font-size: 1.9vh;
   }
   h4 {
-    font-size: 1.6vh;
+    font-size: 1.55vh;
   }
 }
 @media (orientation: landscape) {
